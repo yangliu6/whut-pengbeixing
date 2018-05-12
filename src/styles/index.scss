@@ -1,0 +1,21 @@
+//引入的顺序如下，不能颠倒
+@import './globalTheme.scss';
+@import './vars.scss';
+@import './element-ui.scss';
+@media only screen and (min-device-width: 1920px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-device-width: 1025px) {
+    body {
+        font-size: 14.4px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: "SF Pro SC", "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, "PingFang SC", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    user-select: none;
+}

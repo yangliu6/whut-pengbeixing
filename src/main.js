@@ -4,7 +4,8 @@ import ElementUI from 'element-ui'
 import App from './App'
 import axios from 'axios'
 import store from './store'
-import '@/styles/globalTheme.scss'
+import '@/mock'
+import '@/styles/index.scss'
 // import '@/assets/icons/iconfont'
 
 Vue.use(axios)
