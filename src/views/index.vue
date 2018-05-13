@@ -12,6 +12,9 @@
         <div class="write-article">
           <el-button type="primary" icon="el-icon-edit-outline">提问</el-button>
         </div>
+        <div class="user-info">
+          <img class="avatar" src="static/avatar.jpg" alt="">
+        </div>
       </header>
       <main>
         <transition name="zoom" mode="out-in">
@@ -44,7 +47,7 @@
     }
     &>section {
       flex-grow: 1;
-      min-width: 800px;
+      min-width: 1000px;
       display: flex;
       flex-direction: column;
       &>header {
@@ -56,6 +59,20 @@
         &>.search {
           width: 500px;
           margin-right: 20px;
+        }
+        &>.user-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          &>.avatar {
+            position: relative;
+            left: 50px;
+            height: 3em;
+            width: 3em;
+            border-radius: 50%;
+            cursor: pointer;
+          }
         }
       }
     }

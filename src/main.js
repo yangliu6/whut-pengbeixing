@@ -7,6 +7,7 @@ import store from './store'
 import '@/mock'
 import '@/styles/index.scss'
 import '@/assets/icons/iconfont'
+import 'vue2-animate/dist/vue2-animate.min.css'
 
 Vue.use(axios)
 Vue.use(ElementUI)
