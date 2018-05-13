@@ -34,26 +34,26 @@
 
 </script>
 
-<style lang="scss" scoped>
-  @import '@/styles/vars.scss';
+<style lang="postcss">
+  @import '../styles/vars.css';
   .index {
     display: flex;
     height: 100vh;
-    & aside{
+    &>aside {
       flex-shrink: 0;
     }
-    & section{
+    &>section {
       flex-grow: 1;
       min-width: 800px;
       display: flex;
       flex-direction: column;
-      & header{
-        flex: 0 1 50px;
-        background-color: $color-lightBlue;
+      &>header {
+        flex: 0 1 60px;
+        background-color: var(--color-lightBlue);
         display: flex;
         justify-content: center;
         align-items: center;
-        .search{
+        &>.search {
           width: 500px;
           margin-right: 20px;
         }

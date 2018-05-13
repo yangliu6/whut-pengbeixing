@@ -6,7 +6,7 @@ import axios from 'axios'
 import store from './store'
 import '@/mock'
 import '@/styles/index.scss'
-// import '@/assets/icons/iconfont'
+import '@/assets/icons/iconfont'
 
 Vue.use(axios)
 Vue.use(ElementUI)

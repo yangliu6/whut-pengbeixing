@@ -1,6 +1,6 @@
 //引入的顺序如下，不能颠倒
 @import './globalTheme.scss';
-@import './vars.scss';
+@import './vars.css';
 @import './element-ui.scss';
 @media only screen and (min-device-width: 1920px) {
     body {
